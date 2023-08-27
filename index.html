@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <label for="email">Enter email</label>
+        <input type="text" id="email" placeholder="Email">
+        <br>
+        <br>
+        <label for="Name">Enter name  </label>
+        <input type="text" value="Name" id="Name">
+        <br>
+        <br>
+        <label for="Password"> Enter Password</label>
+        <input type="password" id="Password">
+        <br>
+        <br>
+        <input type="submit" value="click here">
+        <br>
+        <label for="datepicker"> Choose Date </label>
+        <input type="date" id="datepicker">
+        <br>
+        <label for="Select1">Choose your dishes</label>
+        <select name="dishes" id="Select1" >
+            <option value="Chips"> Chips</option>
+            <option value="kurkure">Kukure</option>
+        </select>
+        <!-- select used for drop down -->
+        <br>
+        <textarea name="textarea" id="textarea1" cols="30" rows="10" placeholder="enter your text"></textarea>
+        <br>
+        <!-- rows and cols allows to specify the size -->
+
+        <br>
+        <button>Click </button>
+        <fieldset>
+            <legend>HTML dummy</legend>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam incidunt mollitia impedit eligendi amet corporis!</p>
+        <!-- fieldset used to group under a common name -->
+        <!-- legend used to create a caption-->
+        </fieldset>
+        <br>
+        <label for="animals1">Animals</label>
+        <select name="animals" id="animals1" multiple>
+            <option value="dog">dog</option>
+            <option value="">cat</option>
+            <option value="elephant">elephant</option>
+            <option value="lion">lion</option> 
+        </select>
+        <br>
+        <label for="male">male</label>
+        <input type="radio" id="male" name="gender">
+        <br>
+        <label for="female">female</label>
+        <input type="radio" id="female" name="gender">
+        <br>
+        <label for="others">others</label>
+        <input type="radio" id="others" name="gender">
+        <br>
+        <!-- The NAME in the input should be common to select only one radio button -->
+
+        <label for="file1">Upload</label>
+        <input type="file" name="file" id="file1">
+        <br>
+        <!-- used to select file from computer -->
+        <input type="image" name="img1" id="img1" alt="click here" src="img.webp" 
+        width="20px" height="20px">
+        <br>
+        <label for="counter">Experience(in Years:)</label>
+        <br>
+        <input type="number" name="counter" id="counter" min="0" max="50">
+        <br>
+        <!-- type number in input tag, brings COUNTER -->
+    </form>
+</body>
+</html>
